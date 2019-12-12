@@ -201,6 +201,7 @@ public:
   float btag_DeepBoosted_WvsQCD() const{return m_btag_DeepBoosted_WvsQCD;}
   float btag_DeepBoosted_ZvsQCD() const{return m_btag_DeepBoosted_ZvsQCD;}
   float btag_DeepBoosted_ZbbvsQCD() const{return m_btag_DeepBoosted_ZbbvsQCD;}
+  float btag_DeepBoosted_ZHbbvsQCD() const{return (m_btag_DeepBoosted_probZbb+m_btag_DeepBoosted_probHbb)/(m_btag_DeepBoosted_probZbb+m_btag_DeepBoosted_probHbb+m_btag_DeepBoosted_probQCDbb+m_btag_DeepBoosted_probQCDcc+m_btag_DeepBoosted_probQCDb+m_btag_DeepBoosted_probQCDc+m_btag_DeepBoosted_probQCDothers);}
   float btag_DeepBoosted_HbbvsQCD() const{return m_btag_DeepBoosted_HbbvsQCD;}
   float btag_DeepBoosted_H4qvsQCD() const{return m_btag_DeepBoosted_H4qvsQCD;}
 
